@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  PdfCraft's text, in US English.
+
+  To translate PdfCraft: copy this file to res/values-<language>/strings.xml (values-es for
+  Spanish, values-pt-rBR for Brazilian Portuguese, values-zh-rCN for simplified Chinese) and
+  translate the text between the tags. Keep each name, every placeholder (%1$s, %2$d: the
+  number says which value goes there, so a translation may move them), escapes such as \' and
+  \n, and the "one" and "other" items of plurals (add the items your language needs: zero, two,
+  few, many). A string left out shows in English.
+-->
+<resources>
+    <string name="app_name" translatable="false">PdfCraft</string>
+    <string name="open_with">在 PdfCraft 中打开</string>
+
+    <!-- Shared: buttons and words used on many screens -->
+    <string name="common_ok">确定</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_done">完成</string>
+    <string name="common_save">保存</string>
+    <string name="common_save_copy">保存副本</string>
+    <string name="common_delete">删除</string>
+    <string name="common_back">返回</string>
+    <string name="common_share">共享</string>
+    <string name="common_open">打开</string>
+    <string name="common_create">创建</string>
+    <string name="common_clear">清除</string>
+    <string name="common_rename">重命名</string>
+    <string name="common_undo">撤销</string>
+    <string name="common_redo">重做</string>
+    <string name="common_play">播放</string>
+    <string name="common_pause">暂停</string>
+    <string name="common_sign">签名</string>
+    <string name="common_post">发布</string>
+    <string name="common_more_options">更多选项</string>
+    <string name="common_password">密码</string>
+    <string name="common_your_name">您的姓名</string>
+    <string name="common_file_name">文件名</string>
+    <string name="common_today">今天</string>
+    <string name="common_yesterday">昨天</string>
+
+    <!-- Shared: tool names -->
+    <string name="common_tool_edit_pdf">编辑 PDF</string>
+    <string name="common_tool_read_aloud">朗读</string>
+    <string name="common_tool_combine">合并文件</string>
+    <string name="common_tool_set_password">设置密码</string>
+    <string name="common_tool_organize">整理页面</string>
+    <string name="common_tool_create_pdf">创建 PDF</string>
+    <string name="common_tool_compress">压缩 PDF</string>
+    <string name="common_tool_export">导出 PDF</string>
+    <string name="common_tool_crop">裁剪页面</string>
+    <string name="common_tool_fill_sign">填写与签名</string>
+    <string name="common_tool_scan">扫描</string>
+    <string name="common_tool_more_tools">更多工具</string>
+    <string name="common_tool_recognize_text">识别文本</string>
+    <string name="common_tool_comment">注释</string>
+    <string name="common_tool_highlight">高亮</string>
+    <string name="common_tool_underline">下划线</string>
+    <string name="common_tool_draw">绘制</string>
+    <string name="common_tool_sign_digital_id">使用数字 ID 签名</string>
+
+    <!-- Shared: messages -->
+    <string name="common_file_unreadable">无法读取该文件。</string>
+    <string name="common_wrong_password">密码不正确。</string>
+
+    <!-- ================================================================== -->
+    <!-- Home, Files, Tools and Search, the tool screens, settings and shared dialogs -->
+    <!-- ================================================================== -->
+    <!-- Home: the bottom bar's tabs (also the Files and Tools screens' titles) -->
+    <string name="home_tab_home">首页</string>
+    <string name="home_tab_files">文件</string>
+    <string name="home_tab_tools">工具</string>
+    <string name="home_tab_search">搜索</string>
+
+    <!-- Home: header, welcome and the file lists -->
+    <string name="home_settings">设置</string>
+    <string name="home_welcome">欢迎</string>
+    <string name="home_welcome_back">欢迎回来</string>
+    <string name="home_start_with_tool">从工具开始</string>
+    <!-- Tabs over Home's file list -->
+    <string name="home_list_recent">最近</string>
+    <string name="home_list_starred">已加星标</string>
+    <string name="home_list_on_device">设备上</string>
+    <string name="home_list_view">列表视图</string>
+    <string name="home_grid_view">网格视图</string>
+    <string name="home_clear_recent">清除最近记录</string>
+    <string name="home_sort_by_name">按名称排序</string>
+    <string name="home_sort_by_date">按日期排序</string>
+    <string name="home_other_files">此手机上的其他文件</string>
+    <string name="home_open_file">打开文件</string>
+    <string name="home_new_scan">新建扫描</string>
+
+    <!-- Home: empty lists -->
+    <string name="home_no_recent_title">没有最近文件</string>
+    <string name="home_no_recent_body">您打开的文件会显示在这里。</string>
+    <string name="home_no_starred_title">没有已加星标的文件</string>
+    <string name="home_no_starred_body">从文件菜单中为文件加星标，即可在此快速找到它。</string>
+    <string name="home_device_files_title">您设备上的文件</string>
+    <string name="home_device_files_body">选择要从中列出 PDF 的文件夹，例如 Documents 或 Download 中的某个文件夹。从任何位置打开的文件都会保留在“最近”中。</string>
+    <!-- On this device, before any folder is added: the longer explanation -->
+    <string name="home_device_files_body_long">选择要从中列出 PDF 的文件夹，例如 Documents 或 Download 中的某个文件夹（Android 不允许应用列出整个 Download 文件夹）。PdfCraft 只能看到您选择的文件夹，从任何位置打开的文件都会保留在“最近”中。</string>
+    <string name="home_no_pdfs_title">您的文件夹中没有 PDF</string>
+    <string name="home_no_pdfs_body">您添加的文件夹中的 PDF 会显示在这里。</string>
+    <string name="home_add_folder">添加文件夹</string>
+
+    <!-- Home: a file's row, and when it was last opened -->
+    <string name="home_just_now">刚刚</string>
+    <!-- Accessibility label of the star icon on a starred file -->
+    <string name="home_starred_description">已加星标</string>
+    <!-- Accessibility label of the location icon; %1$s is the folder the file is in -->
+    <string name="home_stored_on">存储在 %1$s 上</string>
+    <!-- Accessibility label of a file's menu button; %1$s is the file name -->
+    <string name="home_more_options_for">%1$s 的更多选项</string>
+
+    <!-- Home: ticked files -->
+    <string name="home_clear_selection">清除选择</string>
+    <plurals name="home_files_selected">
+        <item quantity="one">已选择 %d 个文件</item>
+        <item quantity="other">已选择 %d 个文件</item>
+    </plurals>
+    <string name="home_remove_from_recent">从最近记录中移除</string>
+    <plurals name="home_delete_files_title">
+        <item quantity="one">删除 %d 个文件？</item>
+        <item quantity="other">删除 %d 个文件？</item>
+    </plurals>
+    <string name="home_delete_files_body">它们将从此手机中移除。</string>
+    <string name="home_clear_recent_title">清除最近文件？</string>
+    <string name="home_clear_recent_body">最近文件列表会被清除。文件本身仍保留在原处。</string>
+
+    <!-- A file's menu sheet -->
+    <!-- Opens Export PDF for this file; the three dots mean more choices follow -->
+    <string name="home_export_as">导出为...</string>
+    <string name="home_print">打印</string>
+    <string name="home_open_with">打开方式</string>
+    <!-- Verb: add the file to Starred -->
+    <string name="home_star">加星标</string>
+    <!-- Verb: take the file off Starred -->
+    <string name="home_unstar">取消星标</string>
+    <!-- Verb: make a copy of the file next to it -->
+    <string name="home_duplicate">创建副本</string>
+    <string name="home_enter_name">输入名称</string>
+    <string name="home_delete_file_title">删除文件？</string>
+    <!-- %1$s is the file name -->
+    <string name="home_delete_file_body">您确定要永久删除“%1$s”吗？</string>
+
+    <!-- Files tab -->
+    <string name="home_on_this_device">此设备上</string>
+    <string name="home_photos">照片</string>
+    <string name="home_look_in_other_folders">在其他文件夹中查找</string>
+    <!-- Verb: look for PDFs again -->
+    <string name="home_refresh">刷新</string>
+    <!-- %1$s is the name of a folder the user added -->
+    <string name="home_stop_listing">停止列出 %1$s</string>
+    <string name="home_looking_for_pdfs">正在查找 PDF…</string>
+    <!-- Heading over files at the top of the phone's storage, in capitals like the folder headings -->
+    <string name="home_internal_storage">内部存储</string>
+
+    <!-- Tools tab: categories -->
+    <string name="home_category_all">全部</string>
+    <!-- Category of tools for reading PDFs -->
+    <string name="home_category_read">阅读</string>
+    <!-- Category of tools that make new PDFs -->
+    <string name="home_category_create">创建</string>
+    <!-- Category of tools that change PDFs -->
+    <string name="home_category_edit">编辑</string>
+    <!-- Category of tools that turn PDFs into other files -->
+    <string name="home_category_convert">转换</string>
+
+    <!-- Tools tab: tool names and one line about each -->
+    <string name="home_tool_add_comment">添加注释</string>
+    <string name="home_about_fill_sign">填写表单并签名</string>
+    <string name="home_about_comment">注释、高亮和绘制</string>
+    <string name="home_about_read_aloud">朗读 PDF</string>
+    <string name="home_about_create">将图像和文本转换为 PDF</string>
+    <string name="home_about_scan">用相机扫描纸张</string>
+    <string name="home_about_combine">将多个文件合并为一个 PDF</string>
+    <string name="home_about_organize">重新排序、旋转、删除和插入页面</string>
+    <string name="home_about_crop">修剪边距或更改页面大小</string>
+    <string name="home_about_edit">更改文本和图片</string>
+    <string name="home_about_compress">缩小 PDF 文件</string>
+    <string name="home_about_export">将 PDF 保存为文档、电子表格、幻灯片或图像</string>
+    <string name="home_about_protect">使用密码保护 PDF</string>
+
+    <!-- Search tab -->
+    <string name="home_search_your_files">搜索您的文件</string>
+    <string name="home_search_empty_body">按名称查找此手机上的 PDF。</string>
+    <string name="home_recent_searches">最近搜索</string>
+    <!-- Accessibility label; %1$s is a past search -->
+    <string name="home_remove_search">移除 %1$s</string>
+    <plurals name="home_search_results">
+        <item quantity="one">此设备上有 %d 个结果</item>
+        <item quantity="other">此设备上有 %d 个结果</item>
+    </plurals>
+    <!-- Search result order -->
+    <string name="home_sort_relevant">最相关</string>
+    <string name="home_sort_name_az">名称 A→Z</string>
+    <string name="home_sort_name_za">名称 Z→A</string>
+    <string name="home_sort_oldest">最早修改</string>
+    <string name="home_sort_newest">最近修改</string>
+    <string name="home_no_results">没有结果</string>
+    <string name="home_no_results_body">请检查拼写，或尝试更短的名称。</string>
+
+    <!-- Settings -->
+    <string name="home_about_app">关于 PdfCraft</string>
+    <string name="home_preferences">偏好设置</string>
+    <string name="home_help_support">帮助与支持</string>
+    <string name="home_help">帮助</string>
+    <string name="home_report_problem">报告问题或请求功能</string>
+    <string name="home_leaving_title">正在离开 PdfCraft</string>
+    <string name="home_continue">继续</string>
+    <string name="home_leaving_body">这会在浏览器中打开网页。</string>
+
+    <!-- Settings: Preferences -->
+    <string name="home_section_notifications">通知</string>
+    <string name="home_no_notifications">PdfCraft 不会发送通知。</string>
+    <string name="home_section_suggestions">自动建议</string>
+    <string name="home_offer_suggestions">填写表单时提供您之前使用过的词语</string>
+    <string name="home_clear_suggestions">清除建议</string>
+    <!-- Section heading and dialog title (also asked the first time a comment is made) -->
+    <string name="home_author_title">注释中显示的姓名</string>
+    <string name="home_author_hint">点按输入姓名，将显示在您的注释中</string>
+    <string name="home_section_screen">屏幕设置</string>
+    <string name="home_keep_screen_on">保持屏幕常亮</string>
+    <string name="home_keep_screen_on_body">在无触摸操作时保持屏幕常亮，最长 30 分钟。</string>
+    <string name="home_section_keyboard">键盘</string>
+    <string name="home_keyboard_shortcuts">键盘快捷键</string>
+    <!-- N, P, Page Down, Page Up, Ctrl+P, Ctrl, + and − are keys on the keyboard -->
+    <string name="home_keyboard_shortcuts_body">连接键盘后：N 或 Page Down 转到下一页，P 或 Page Up 转到上一页，方向键滚动，Ctrl+P 打印，Ctrl 加 + 或 − 缩放。</string>
+    <string name="home_section_extra">额外功能</string>
+    <string name="home_extra_body">对 PdfCraft 外观和运行方式的可选更改。</string>
+    <string name="home_status_bar_in_documents">在文档中显示状态栏</string>
+    <string name="home_status_bar_in_documents_body">状态栏会与工具栏一起显示。当您点按以隐藏它们时，页面会占用整个屏幕，包括摄像头挖孔周围区域。</string>
+    <string name="home_search_count">显示搜索结果数量</string>
+    <string name="home_search_count_body">在文档中查找时，会显示当前是第几个结果以及结果总数，例如 12 个中的第 3 个。</string>
+
+    <!-- Settings: About PdfCraft -->
+    <string name="home_section_about">关于</string>
+    <!-- %1$s is the app's version, %2$s the engine's version -->
+    <string name="home_version">版本 %1$s（引擎 %2$s）</string>
+    <string name="home_version_copied">版本已复制</string>
+    <string name="home_section_legal">法律信息</string>
+    <!-- Also the title of the licences screen -->
+    <string name="home_licences">开源许可证</string>
+    <string name="home_source_code">源代码</string>
+    <string name="home_engine">PdfCraft 引擎</string>
+    <!-- Keep the licence names (MIT, Apache-2.0) and the trademark notice -->
+    <string name="home_legal_notice">PdfCraft for Android 基于 PdfCraft 的 Rust 引擎构建。MIT OR Apache-2.0。PdfCraft 与 Adobe 无关联；Acrobat 是 Adobe Inc. 的商标。</string>
+
+    <!-- Tool screens: Compress PDF -->
+    <string name="tools_compress_action">压缩</string>
+    <string name="tools_compression_level">压缩级别：</string>
+    <string name="tools_compress_high">高压缩</string>
+    <string name="tools_compress_high_desc">文件最小，图像较柔和</string>
+    <string name="tools_compress_medium">中等压缩</string>
+    <string name="tools_compress_medium_desc">文件大小与质量平衡</string>
+    <string name="tools_compress_low">低压缩</string>
+    <string name="tools_compress_low_desc">文件较大，图像最清晰</string>
+
+    <!-- Tool screens: Set password -->
+    <string name="tools_about_passwords">关于密码</string>
+    <string name="tools_protect_intro">将保存此文件的受保护副本。</string>
+    <!-- The * marks a field that must be filled in -->
+    <string name="tools_new_password">新密码 *</string>
+    <!-- The * marks a field that must be filled in -->
+    <string name="tools_repeat_password">重复密码 *</string>
+    <string name="tools_password_rule">使用 6 到 128 个字符：字母、数字和符号，不含空格。</string>
+    <string name="tools_password_mismatch">密码不一致。</string>
+    <!-- "Remove password" is the name of a command in the viewer -->
+    <string name="tools_about_passwords_body">该副本使用 AES-256 加密。请妥善保管密码：密码无法恢复。以后要移除密码，请用该密码打开副本，然后选择“移除密码”。</string>
+
+    <!-- Tool screens: Export PDF -->
+    <string name="tools_export_action">导出</string>
+    <!-- Tab: export as an office document -->
+    <string name="tools_export_document">文档</string>
+    <!-- Tab: export each page as a picture -->
+    <string name="tools_export_image">图像</string>
+    <string name="tools_export_not_allowed">此文档的安全设置不允许导出其文本。请改为导出页面图像。</string>
+    <!-- File formats: product and format names, usually left as they are -->
+    <string name="tools_format_word">Word (docx)</string>
+    <string name="tools_format_rtf">Rich Text Format (rtf)</string>
+    <string name="tools_format_excel">Excel (xlsx)</string>
+    <string name="tools_format_powerpoint">PowerPoint (pptx)</string>
+    <string name="tools_format_jpeg">JPEG (jpeg)</string>
+    <string name="tools_format_png">PNG (png)</string>
+
+    <!-- Tool screens: Create PDF -->
+    <string name="tools_create_title">选择要制作 PDF 的文件</string>
+    <string name="tools_browse_files">浏览文件</string>
+    <string name="tools_or_make_new">或新建一个</string>
+    <string name="tools_scan_document">扫描文档</string>
+
+    <!-- Tool screens: Combine files -->
+    <!-- Title once two or more files are chosen -->
+    <plurals name="tools_file_count">
+        <item quantity="one">%d 个文件</item>
+        <item quantity="other">%d 个文件</item>
+    </plurals>
+    <string name="tools_add_files">添加文件</string>
+    <string name="tools_combine_too_many">请移除一些文件：最多可合并 12 个。</string>
+    <string name="tools_drag_to_reorder">拖动以重新排序</string>
+    <!-- Accessibility label; %1$s is the file name -->
+    <string name="tools_remove_file">移除 %1$s</string>
+    <string name="tools_file_removed">文件已移除</string>
+    <string name="tools_combine_as_pdf">合并为 PDF</string>
+    <string name="tools_combine_name_title">为合并后的文件命名</string>
+
+    <!-- Tool screens: Crop pages and the scan's crop -->
+    <string name="tools_all_pages">所有页面</string>
+    <string name="tools_current_page">当前页</string>
+    <string name="tools_previous_page">上一页</string>
+    <string name="tools_next_page">下一页</string>
+    <!-- %1$d is the page number -->
+    <string name="tools_page_number">第 %1$d 页</string>
+    <!-- Verb: put the crop back to the whole page -->
+    <string name="tools_reset">重置</string>
+    <!-- Verb (button) and the title of the scan's crop screen -->
+    <string name="tools_crop">裁剪</string>
+    <string name="tools_auto_detect">自动检测</string>
+    <string name="tools_no_crop">不裁剪</string>
+
+    <!-- Tool screens: Scan -->
+    <!-- %1$d is the page shown, %2$d the number of pages -->
+    <string name="tools_page_of">第 %1$d 页，共 %2$d 页</string>
+    <string name="tools_save_pdf">保存 PDF</string>
+    <!-- Accessibility label of the new file's name; %1$s is the name -->
+    <string name="tools_scan_name_description">文件名：%1$s。点按更改</string>
+    <string name="tools_scan_empty">拍摄每一页的照片</string>
+    <string name="tools_add_page">添加页面</string>
+    <!-- Verb: take this page's photo again -->
+    <string name="tools_retake">重拍</string>
+    <!-- Looks a scanned page can have -->
+    <string name="tools_filter_original">原始</string>
+    <string name="tools_filter_auto_colour">自动彩色</string>
+    <string name="tools_filter_grayscale">灰度</string>
+    <string name="tools_filter_whiteboard">白板</string>
+    <string name="tools_filter_light_text">浅色文字</string>
+
+    <!-- App dialogs: the first comment's name prompt -->
+    <!-- Verb: go on without entering a name -->
+    <string name="root_skip">跳过</string>
+    <string name="root_author_prompt_body">添加姓名以显示每条注释的作者。您稍后可以在偏好设置中更改。</string>
+
+    <!-- App dialogs: a file that can't be written back -->
+    <string name="root_read_only_title">文件为只读</string>
+    <!-- Verb: throw the changes away -->
+    <string name="root_discard">放弃</string>
+    <!-- %1$s is the file name -->
+    <string name="root_read_only_body">您对 %1$s 的更改无法保存到文件所在位置。请保存副本以保留更改。</string>
+
+    <!-- App dialogs: a link in a document -->
+    <string name="root_open_link_title">打开网页</string>
+    <!-- %1$s is the web site's address -->
+    <string name="root_open_link_body">要打开 %1$s 处的页面吗？</string>
+
+    <!-- App dialogs: bookmarks and Reading Mode -->
+    <string name="root_delete_bookmarks_title">删除所有书签？</string>
+    <string name="root_delete_all">全部删除</string>
+    <string name="root_delete_bookmarks_body">将移除此文档的所有书签。</string>
+    <string name="root_reading_mode_title">阅读模式</string>
+    <!-- "Continuous", "Single page" and "View settings" are names shown in the viewer -->
+    <string name="root_reading_mode_body">工具作用于页面本身。要在阅读模式中使用此工具，请在视图设置中选择“连续”或“单页”。</string>
+
+    <!-- App dialogs: a password-protected file -->
+    <string name="root_enter_password">输入密码</string>
+    <!-- %1$s is the file name (shown in italics) -->
+    <string name="root_password_body">%1$s 受保护。请输入密码以打开文档。</string>
+
+    <!-- Open-source licences: the parts that are not names -->
+    <string name="root_licence_pdfcraft">PdfCraft（引擎和应用）</string>
+    <string name="root_licence_pdfcraft_terms">MIT OR Apache-2.0，由 storytold 及贡献者提供</string>
+    <string name="root_licence_lucide">Lucide 图标</string>
+    <string name="root_licence_inter">Inter 字体</string>
+    <string name="root_licence_dancing_script">Dancing Script 字体（手写签名）</string>
+    <string name="root_licence_foxit">Foxit 字体（用于未嵌入标准字体的 PDF）</string>
+    <string name="root_licence_cmaps">Adobe CMap 资源（用于读取中文、日文和韩文 PDF）</string>
+    <string name="root_licence_ocrs">文本识别模型（ocrs）</string>
+    <string name="root_licence_ocrs_terms">CC-BY-SA-4.0，Robert Knight；基于 HierText 训练</string>
+    <string name="root_licence_rust">hayro、lopdf、boa 以及引擎的其他 Rust 依赖项</string>
+    <string name="root_licence_rust_terms">MIT、Apache-2.0 及兼容许可证；请参阅源代码中的 NOTICE</string>
+
+    <!-- Shared controls -->
+    <!-- Accessibility label of the area behind a bottom sheet -->
+    <string name="ui_close_sheet">关闭面板</string>
+    <string name="ui_show_password">显示密码</string>
+    <string name="ui_hide_password">隐藏密码</string>
+
+    <!-- ================================================================== -->
+    <!-- The viewer: bars, page overlays, Read aloud, voice comments, Organize pages -->
+    <!-- ================================================================== -->
+    <!-- Viewer: the bottom quick toolbar's shortcut chips -->
+    <string name="viewer_star_file">为此文件加星标</string>
+    <string name="viewer_unstar_file">取消此文件的星标</string>
+
+    <!-- Viewer: the top bar and its Undo menu -->
+    <!-- Translator note: what Undo and Redo would take back while drawing; shown after "Undo" / "Redo" (viewer_undo_named). -->
+    <string name="viewer_undo_drawing">绘制</string>
+    <!-- Translator note: accessibility label of the Undo button that opens a small Undo / Redo menu. -->
+    <string name="viewer_undo_or_redo">撤销或重做</string>
+    <!-- Translator note: %1$s is what would be undone, for example "Drawing" or the name of an edit. -->
+    <string name="viewer_undo_named">撤销%1$s</string>
+    <!-- Translator note: %1$s is what would be redone, for example "Drawing" or the name of an edit. -->
+    <string name="viewer_redo_named">重做%1$s</string>
+    <string name="viewer_find_in_document">在文档中查找</string>
+
+    <!-- Viewer: Find in the top bar -->
+    <!-- Translator note: accessibility label of the arrow that closes Find. -->
+    <string name="viewer_collapse">折叠</string>
+    <!-- Translator note: go to the previous search result. -->
+    <string name="viewer_find_previous">上一个</string>
+    <!-- Translator note: go to the next search result. -->
+    <string name="viewer_find_next">下一个</string>
+
+    <!-- Viewer: the quick toolbar's handle and the tool sub-toolbars -->
+    <string name="viewer_show_shortcuts">显示快捷方式</string>
+    <string name="viewer_hide_shortcuts">隐藏快捷方式</string>
+    <!-- Translator note: accessibility label of the button that picks a tool's colour. -->
+    <string name="viewer_colour">颜色</string>
+
+    <!-- Viewer: the hint a tool shows when it starts -->
+    <string name="viewer_hint_highlight">在文本上拖动以高亮</string>
+    <string name="viewer_hint_underline">在文本上拖动以添加下划线</string>
+    <string name="viewer_hint_strikethrough">在文本上拖动以添加删除线</string>
+    <string name="viewer_hint_draw">单指绘制，双指滚动</string>
+    <string name="viewer_hint_comment">点按要放置注释的位置</string>
+    <string name="viewer_hint_text">点按以添加文本</string>
+    <string name="viewer_hint_fill_sign">点按要填写文本的位置</string>
+
+    <!-- Viewer: Add image sheet -->
+    <string name="viewer_add_image">添加图像</string>
+    <string name="viewer_image_from_photos">从照片</string>
+    <string name="viewer_image_from_camera">从相机</string>
+
+    <!-- Viewer: the green banner a finished job leaves -->
+    <!-- Translator note: accessibility label of the X that closes the banner. -->
+    <string name="viewer_close">关闭</string>
+
+    <!-- Viewer: the scrubber and Go to page -->
+    <!-- Translator note: %1$d is the current page number, %2$d the number of pages. -->
+    <string name="viewer_page_of">第 %1$d 页，共 %2$d 页</string>
+    <string name="viewer_go_to_page">转到页面</string>
+    <!-- Translator note: the range of page numbers that can be entered; %1$d is the last page. -->
+    <string name="viewer_go_to_page_range">1 - %1$d</string>
+    <string name="viewer_enter_page_number">输入页码</string>
+    <!-- Translator note: link back to the page the last jump came from; %1$d is its number. -->
+    <string name="viewer_back_to_page">返回第 %1$d 页</string>
+
+    <!-- Viewer: the menu by selected text -->
+    <string name="viewer_add_comment">添加注释</string>
+    <string name="viewer_strikethrough">删除线</string>
+    <string name="viewer_edit_text">编辑文本</string>
+    <string name="viewer_zoom_in">放大</string>
+    <string name="viewer_zoom_out">缩小</string>
+    <string name="viewer_search_count">%1$d / %2$d</string>
+    <string name="viewer_read_from_here">从这里朗读</string>
+    <string name="viewer_copy_text">复制文本</string>
+    <!-- Translator note: accessibility labels of the two handles at the ends of selected text. -->
+    <string name="viewer_selection_start">选区起点</string>
+    <string name="viewer_selection_end">选区终点</string>
+
+    <!-- Viewer: typing a note, a reply or free text -->
+    <string name="viewer_write_note">写附注</string>
+    <string name="viewer_write_reply">写回复</string>
+    <!-- Translator note: placeholder in the box where text is typed onto the page. -->
+    <string name="viewer_add_text">添加文本</string>
+
+    <!-- Viewer: Reading Mode -->
+    <string name="viewer_reading_hint">双指捏合或双击可放大文本。</string>
+    <string name="viewer_reading_no_text">此页面没有可重排的文本。</string>
+
+    <!-- Read Aloud: the player -->
+    <string name="read_aloud_no_voice">朗读功能需要此手机安装文本转语音引擎或语音包。</string>
+    <string name="read_aloud_open_player">打开播放器</string>
+    <string name="read_aloud_close_player">关闭播放器</string>
+    <string name="read_aloud_read_again">再次朗读</string>
+    <string name="read_aloud_back_15">快退 15 秒</string>
+    <string name="read_aloud_forward_15">快进 15 秒</string>
+    <!-- Translator note: opens the choice of the language the voice reads in. -->
+    <string name="read_aloud_voice">语音</string>
+    <string name="read_aloud_choose_language">选择语言</string>
+    <string name="read_aloud_voice_settings">语音设置</string>
+
+    <!-- Voice comments: recording -->
+    <string name="voice_record_comment">录制语音注释</string>
+    <string name="voice_mic_failed">无法启动麦克风，可能正被其他应用占用。</string>
+    <string name="voice_nothing_recorded">没有录制任何内容。</string>
+    <string name="voice_limit_warning">录制到 30 分钟会自动停止。</string>
+    <string name="voice_recording">正在录制…</string>
+    <string name="voice_playing">正在播放…</string>
+    <string name="voice_listen_first">发布前请先试听录音</string>
+    <string name="voice_stop_recording">停止录制</string>
+    <string name="voice_record_again">重新录制</string>
+
+    <!-- Voice comments: playing one back in its panel -->
+    <string name="voice_cannot_play">无法播放此录音。</string>
+    <string name="voice_play_audio">播放音频</string>
+    <!-- Translator note: the type of a comment as comment lists name it. -->
+    <string name="voice_comment_kind">语音注释</string>
+
+    <!-- Voice comments: the microphone was refused before -->
+    <string name="voice_mic_title">使用麦克风？</string>
+    <string name="voice_mic_rationale">PdfCraft 需要麦克风权限来录制语音注释。您可以在应用设置中允许。</string>
+    <string name="voice_open_settings">打开设置</string>
+    <string name="voice_not_now">以后再说</string>
+
+    <!-- Pages: the grid of pages and organizing -->
+    <string name="pages_title">页面</string>
+    <string name="pages_select">选择页面</string>
+    <!-- Translator note: the title while organizing; %1$d is how many pages are ticked. -->
+    <plurals name="pages_selected_count">
+        <item quantity="one">已选择 %1$d 页</item>
+        <item quantity="other">已选择 %1$d 页</item>
+    </plurals>
+    <!-- Translator note: accessibility label of a page's thumbnail; %1$d is its number. -->
+    <string name="pages_page">第 %1$d 页</string>
+    <string name="pages_insert_page">插入页面</string>
+    <string name="pages_extract">提取</string>
+    <!-- Translator note: rotate the selected pages a quarter turn to the left. Keep it short. -->
+    <string name="pages_rotate_left">左转</string>
+    <!-- Translator note: rotate the selected pages a quarter turn to the right. Keep it short. -->
+    <string name="pages_rotate_right">右转</string>
+
+    <!-- Pages: Insert sheet (where the new pages go, and what they are) -->
+    <string name="pages_insert">插入</string>
+    <string name="pages_at_start">在开头</string>
+    <string name="pages_at_end">在末尾</string>
+    <!-- Translator note: %1$d is a page number. -->
+    <string name="pages_after_page">第 %1$d 页之后</string>
+    <!-- Translator note: %1$d is a page number. -->
+    <string name="pages_before_page">第 %1$d 页之前</string>
+    <string name="pages_blank_page">空白页</string>
+    <string name="pages_from_file">从另一个文件</string>
+    <string name="pages_from_scan">从扫描</string>
+
+    <!-- ================================================================== -->
+    <!-- The viewer's sheets: More, comments, lists, page menu, digital signatures -->
+    <!-- ================================================================== -->
+    <!-- Digital signatures: placing the signature box on a page -->
+    <string name="sign_place_hint">拖动一个框到要放置签名的位置</string>
+
+    <!-- Digital signatures: the Sign with a digital ID screen -->
+    <string name="sign_section_id">数字 ID</string>
+    <!-- Translator note: .p12 and .pfx are file extensions; keep them as they are -->
+    <string name="sign_no_id">您还没有数字 ID。请添加收到的 .p12 或 .pfx 文件，或为自己创建一个。</string>
+    <string name="sign_add_id_file">添加数字 ID 文件</string>
+    <!-- Translator note: both a button and the title of the screen it opens -->
+    <string name="sign_create_id">创建数字 ID</string>
+    <string name="sign_section_appearance">外观</string>
+    <!-- Translator note: how the signature looks: only the signer's name and the date -->
+    <string name="sign_look_name">仅姓名</string>
+    <!-- Translator note: how the signature looks: the signer's name typed in a script font -->
+    <string name="sign_look_typed">键入的姓名</string>
+    <!-- Translator note: how the signature looks: the signature the reader drew in Fill & Sign -->
+    <string name="sign_look_drawn">我的签名</string>
+    <string name="sign_look_name_about">框中显示您的姓名和日期。</string>
+    <string name="sign_look_typed_about">以手写体显示您的姓名，旁边附上姓名和日期。</string>
+    <!-- Translator note: Fill & Sign is the name of a tool in the app -->
+    <string name="sign_look_drawn_about">您保存的“填写与签名”签名，旁边显示您的姓名和日期。</string>
+    <!-- Translator note: Fill & Sign is the name of a tool in the app -->
+    <string name="sign_look_drawn_missing">请先在“填写与签名”中创建签名。</string>
+    <string name="sign_section_reason">原因（可选）</string>
+    <string name="sign_reason_hint">例如：我批准此文档</string>
+    <string name="sign_section_location">位置（可选）</string>
+    <string name="sign_location_hint">城市或地点</string>
+    <!-- Translator note: %1$s is the name on the digital ID -->
+    <string name="sign_section_password">%1$s 的密码</string>
+    <!-- Translator note: the hint in the password field, and the title of the dialog asking for the password of a digital ID file being added -->
+    <string name="sign_id_password">数字 ID 密码</string>
+    <string name="sign_saves_note">签名会保存文档。任何打开它的人都可以检查自签名以来文档是否发生变化；签名后所做的更改会与签名一起列出。</string>
+
+    <!-- Digital signatures: a digital ID in the list -->
+    <!-- Translator note: %1$s is a date -->
+    <string name="sign_id_expired">此数字 ID 已于 %1$s 过期。</string>
+    <!-- Translator note: %1$s is a date -->
+    <string name="sign_id_not_yet_valid">此数字 ID 要到 %1$s 才有效。</string>
+    <string name="sign_id_self_signed">自签名</string>
+    <!-- Translator note: %1$s is the name of whoever issued the certificate -->
+    <string name="sign_id_issued_by">由 %1$s 颁发</string>
+    <!-- Translator note: %1$s is a date -->
+    <string name="sign_id_valid_until">有效期至 %1$s</string>
+    <!-- Translator note: accessibility label of the delete button. %1$s is the person's name on the digital ID -->
+    <string name="sign_remove_id_description">移除 %1$s 的数字 ID</string>
+    <string name="sign_remove_id_title">移除数字 ID？</string>
+    <string name="sign_remove">移除</string>
+    <!-- Translator note: %1$s is the person's name on the digital ID -->
+    <string name="sign_remove_id_message">%1$s 的数字 ID 已从 PdfCraft 中移除。已使用它签名的文档会保留其签名。</string>
+
+    <!-- Digital signatures: the password of a digital ID file being added -->
+    <string name="sign_add">添加</string>
+    <!-- Translator note: %1$s is the file's name -->
+    <string name="sign_id_password_prompt">输入保护 %1$s 的密码。</string>
+
+    <!-- Digital signatures: the Create a digital ID screen -->
+    <string name="sign_create_about">在此创建的数字 ID 是自签名的：您用它签署的文档会显示签署后所做的任何更改，但不会有其他人证明这是您。若要获得这种证明，请使用组织或证书颁发机构提供给您的 ID 文件。</string>
+    <string name="sign_section_name">姓名</string>
+    <string name="sign_section_email">电子邮件（可选）</string>
+    <!-- Translator note: an example email address shown in the empty field -->
+    <string name="sign_email_hint">name@example.com</string>
+    <string name="sign_section_organisation">组织（可选）</string>
+    <string name="sign_organisation_hint">公司或组织</string>
+    <string name="sign_password_hint">至少 8 个字符</string>
+    <string name="sign_password_again">再次输入密码</string>
+    <string name="sign_password_short">密码至少需要 8 个字符。</string>
+    <string name="sign_password_mismatch">密码不一致。</string>
+    <string name="sign_password_note">PdfCraft 不会保存密码，也无法恢复密码：每次签名时都需要输入。</string>
+
+    <!-- Digital signatures: tapping an empty signature field -->
+    <string name="sign_add_your_signature">添加您的签名</string>
+
+    <!-- Digital signatures: the Signatures sheet -->
+    <string name="sign_signatures">签名</string>
+    <string name="sign_none">此文档没有签名。</string>
+    <string name="sign_unknown_signer">未知签名者</string>
+    <string name="sign_empty_field">空白签名字段</string>
+    <!-- Translator note: a certifying signature, one that says which changes the document still allows -->
+    <string name="sign_certified">已认证</string>
+    <string name="sign_add_signature">添加数字签名</string>
+    <string name="sign_status_unsigned">尚未签名</string>
+    <string name="sign_status_valid">有效</string>
+    <string name="sign_status_invalid">无效</string>
+    <!-- Translator note: the signature is intact, but the signer isn't among the trusted ones -->
+    <string name="sign_status_unknown">签名者未验证</string>
+
+    <!-- Digital signatures: a signature's details -->
+    <!-- Translator note: %1$s is the reason the signer gave -->
+    <string name="sign_detail_reason">原因：%1$s</string>
+    <!-- Translator note: %1$s is the place the signer gave -->
+    <string name="sign_detail_location">位置：%1$s</string>
+    <string name="sign_detail_cert_self_signed">证书：自签名</string>
+    <!-- Translator note: %1$s is the name of whoever issued the certificate -->
+    <string name="sign_detail_cert_issued_by">证书：由 %1$s 颁发</string>
+    <!-- Translator note: %1$s is the date the certificate stops being valid -->
+    <string name="sign_detail_valid_until">有效期至：%1$s</string>
+    <string name="sign_detail_certified_no_changes">已认证：不允许更改</string>
+    <string name="sign_detail_certified_forms">已认证：允许填写表单</string>
+    <string name="sign_detail_certified_comments">已认证：允许填写表单和注释</string>
+    <string name="sign_detail_changes_none">签名后的更改：无</string>
+    <string name="sign_detail_changes_allowed">签名后的更改：允许的更改</string>
+    <!-- Translator note: %1$s lists the changes, as the PDF engine describes them -->
+    <string name="sign_detail_changes_allowed_list">签名后的更改：允许的更改（%1$s）</string>
+    <string name="sign_detail_changes_disallowed">签名后的更改：包含不允许的更改</string>
+    <!-- Translator note: %1$s lists the changes, as the PDF engine describes them -->
+    <string name="sign_detail_changes_disallowed_list">签名后的更改：包含不允许的更改（%1$s）</string>
+    <string name="sign_field_unsigned">尚无人签署此字段。</string>
+    <!-- Translator note: a button that shows the signature on its page -->
+    <string name="sign_go_to">转到该处</string>
+    <string name="sign_stop_trusting">停止信任</string>
+    <string name="sign_trust">信任此签名者</string>
+
+    <!-- Viewer sheets: More -->
+    <string name="sheet_stored_on_device">存储在此设备上</string>
+    <!-- Translator note: the file can't be changed -->
+    <string name="sheet_read_only">只读</string>
+    <string name="sheet_print">打印</string>
+    <string name="sheet_add_star">添加星标</string>
+    <string name="sheet_remove_star">移除星标</string>
+    <string name="sheet_view_settings">视图设置</string>
+    <string name="sheet_pages">页面</string>
+    <string name="sheet_attachments">附件</string>
+    <string name="sheet_bookmarks_contents">书签和目录</string>
+    <string name="sheet_comment_list">注释列表</string>
+    <string name="sheet_add_bookmark">添加书签</string>
+    <string name="sheet_remove_bookmark">移除书签</string>
+    <string name="sheet_export_as">导出为...</string>
+    <!-- Translator note: %1$s names the change, as the PDF engine describes it -->
+    <string name="sheet_undo_action">撤销%1$s</string>
+    <!-- Translator note: %1$s names the change, as the PDF engine describes it -->
+    <string name="sheet_redo_action">重做%1$s</string>
+
+    <!-- Viewer sheets: View settings -->
+    <string name="sheet_continuous">连续</string>
+    <string name="sheet_single_page">单页</string>
+    <string name="sheet_reading_mode">阅读模式</string>
+    <string name="sheet_night_mode">夜间模式</string>
+
+    <!-- Viewer sheets: Bookmarks & Table of Contents -->
+    <!-- Translator note: the tab with the document's table of contents -->
+    <string name="sheet_tab_contents">目录</string>
+    <!-- Translator note: the tab with the reader's own bookmarks -->
+    <string name="sheet_tab_bookmarks">书签</string>
+    <string name="sheet_no_contents">此文档没有目录。</string>
+    <string name="sheet_up_level">上一级</string>
+    <!-- Translator note: accessibility label. %1$s is the title of an entry in the table of contents -->
+    <string name="sheet_expand_entry">展开 %1$s</string>
+    <string name="sheet_bookmarks_empty">您的书签会显示在这里。</string>
+    <string name="sheet_add_a_bookmark">添加书签</string>
+    <string name="sheet_bookmark_name_invalid">无法使用该名称。</string>
+    <!-- Translator note: %1$s is the bookmark's name -->
+    <string name="sheet_bookmark_removed">已移除书签“%1$s”</string>
+    <string name="sheet_delete_all">全部删除</string>
+    <!-- Translator note: %1$d is a page number -->
+    <string name="sheet_page">第 %1$d 页</string>
+
+    <!-- Viewer sheets: More tools -->
+    <string name="sheet_customize_toolbar">自定义工具栏</string>
+
+    <!-- Viewer sheets: file sizes -->
+    <plurals name="sheet_size_bytes">
+        <item quantity="one">%1$d 字节</item>
+        <item quantity="other">%1$d 字节</item>
+    </plurals>
+    <!-- Translator note: %1$.1f is a number with one decimal; KB is kilobytes -->
+    <string name="sheet_size_kb">%1$.1f KB</string>
+    <!-- Translator note: %1$.1f is a number with one decimal; MB is megabytes -->
+    <string name="sheet_size_mb">%1$.1f MB</string>
+
+    <!-- Comment List -->
+    <string name="comments_title">注释</string>
+    <string name="comments_none">没有注释</string>
+    <!-- Translator note: replies aren't counted; a thread is a comment with its replies -->
+    <plurals name="comments_threads">
+        <item quantity="one">%1$d 个注释线程</item>
+        <item quantity="other">%1$d 个注释线程</item>
+    </plurals>
+    <!-- Translator note: accessibility labels of a page's fold button -->
+    <string name="comments_expand">展开</string>
+    <string name="comments_collapse">折叠</string>
+    <string name="comments_copy_text">复制文本</string>
+    <string name="comments_edit">编辑注释</string>
+    <!-- Translator note: adds text to a comment that has none -->
+    <string name="comments_add">添加注释</string>
+    <!-- Translator note: the author shown for a comment without one -->
+    <string name="comments_guest">访客</string>
+    <string name="comments_options">注释选项</string>
+    <!-- Translator note: a button under a comment thread -->
+    <string name="comments_reply">回复</string>
+    <!-- Translator note: the hint in the empty reply box -->
+    <string name="comments_reply_hint">回复</string>
+    <!-- Translator note: accessibility label of the commenter's picture -->
+    <string name="comments_avatar">头像</string>
+    <string name="comments_empty_title">开始使用</string>
+    <string name="comments_empty_body">您使用注释工具添加的注释会显示在这里。</string>
+
+    <!-- Comment List: what a comment did, in italics under its author -->
+    <string name="comments_action_highlighted">已高亮</string>
+    <string name="comments_action_underlined">已添加下划线</string>
+    <string name="comments_action_struck_out">添加了删除线</string>
+    <string name="comments_action_freehand">手绘了图形</string>
+    <string name="comments_action_arrow">绘制了箭头</string>
+    <string name="comments_action_line">绘制了线条</string>
+    <string name="comments_action_rectangle">绘制了矩形</string>
+    <string name="comments_action_oval">绘制了椭圆形</string>
+    <string name="comments_action_cloud">绘制了云形</string>
+    <string name="comments_action_polygon">绘制了多边形</string>
+    <string name="comments_action_joined_lines">绘制了连接线</string>
+    <string name="comments_action_stamp">已盖章</string>
+    <string name="comments_action_note">添加了附注</string>
+    <string name="comments_action_callout">添加了标注</string>
+    <string name="comments_action_text_box">添加了文本框</string>
+    <string name="comments_action_replacement">建议替换</string>
+    <string name="comments_action_insertion">建议插入</string>
+    <string name="comments_action_voice">录制了语音注释</string>
+    <string name="comments_action_other">添加了注释</string>
+
+    <!-- Comment panel -->
+    <string name="comments_previous">上一条注释</string>
+    <string name="comments_next">下一条注释</string>
+    <!-- Translator note: which comment thread is shown: %1$d is its number, %2$d how many there are -->
+    <string name="comments_position">第 %1$d 个，共 %2$d 个</string>
+    <string name="comments_opacity">不透明度</string>
+    <string name="comments_line_thickness">线条粗细</string>
+
+    <!-- Comment panel: moving a selected comment (accessibility labels) -->
+    <string name="comments_move">移动注释</string>
+    <string name="comments_resize">调整注释大小</string>
+
+    <!-- Edit PDF: list styles -->
+    <!-- Translator note: the list style with no bullets or numbers -->
+    <string name="lists_none">无</string>
+
+    <!-- Page menu (long press on a page) -->
+    <string name="page_menu_add_comment">添加注释</string>
+    <string name="page_menu_add_text">添加文本</string>
+    <string name="page_menu_add_image">添加图像</string>
+
+    <!-- ================================================================== -->
+    <!-- Editing tools: Edit PDF, Fill &amp; Sign, comment tools, the quick toolbar, forms -->
+    <!-- ================================================================== -->
+    <!-- Bottom toolbar: short tool names under the icons (keep them short; two lines at most) -->
+    <!-- Note: the Set password tool's short name on the toolbar -->
+    <string name="toolbar_label_password">密码</string>
+    <string name="toolbar_label_combine">合并</string>
+    <string name="toolbar_label_compress">压缩</string>
+    <string name="toolbar_label_organize">整理</string>
+    <string name="toolbar_label_crop">裁剪</string>
+    <!-- Note: the Recognize text tool's short name on the toolbar -->
+    <string name="toolbar_label_recognize">识别</string>
+    <!-- Note: the tool that types text onto the page, as named on the toolbar -->
+    <string name="toolbar_label_add_text">添加文本</string>
+    <!-- Note: the same tool's name in More tools, and its one sub-tool (text typed onto the page) -->
+    <string name="toolbar_tool_text">文本</string>
+
+    <!-- Customize toolbar: moving tools between the bottom toolbar and More tools -->
+    <string name="toolbar_customize">自定义工具栏</string>
+    <string name="toolbar_save">保存工具栏</string>
+    <!-- Note: %1$d is how many tools fit on the toolbar (6 to 8) -->
+    <plurals name="toolbar_customize_hint">
+        <item quantity="one">在工具栏和更多工具之间拖动工具。工具栏可容纳 %1$d 个。</item>
+        <item quantity="other">在工具栏和更多工具之间拖动工具。工具栏可容纳 %1$d 个。</item>
+    </plurals>
+    <!-- Note: heading over the tools that are on the bottom toolbar -->
+    <string name="toolbar_section_toolbar">工具栏</string>
+    <!-- Note: spoken for a tool tile; %1$s is the tool's name -->
+    <string name="toolbar_tool_on_bar">%1$s，位于工具栏</string>
+    <!-- Note: spoken for a tool tile; %1$s is the tool's name -->
+    <string name="toolbar_tool_in_more_tools">%1$s，位于更多工具中</string>
+
+    <!-- Highlight tool: marking text -->
+    <string name="toolbar_strikethrough">删除线</string>
+    <!-- Note: "More tools" and "Recognize text" are the names of the menu and the tool -->
+    <string name="toolbar_no_text_to_mark">此页面没有可标记的文本。请先识别文本（更多工具 ▸ 识别文本）。</string>
+
+    <!-- Draw tool -->
+    <string name="toolbar_draw_freeform">自由绘制</string>
+    <string name="toolbar_line_thickness">线条粗细</string>
+    <!-- Note: a setting that turns hand-drawn strokes into clean lines, boxes, ovals and polygons -->
+    <string name="toolbar_snap_to_shape">吸附到形状</string>
+    <string name="toolbar_snap_on">已开启吸附到形状</string>
+    <string name="toolbar_snap_off">已关闭吸附到形状</string>
+    <!-- Note: spoken for each of the seven line widths; %1$d is 1 (thinnest) to 7 -->
+    <string name="toolbar_stroke_width">笔画宽度 %1$d</string>
+
+    <!-- Comment tool -->
+    <string name="toolbar_text_comment">文本注释</string>
+    <string name="toolbar_voice_comment">语音注释</string>
+
+    <!-- Text tool -->
+    <string name="toolbar_text_size">文本大小</string>
+    <!-- Note: a text size in points; %1$d is the number -->
+    <string name="toolbar_text_size_pt">%1$d pt</string>
+
+    <!-- Colour picker of the comment tools -->
+    <string name="toolbar_color_highlight">高亮颜色</string>
+    <string name="toolbar_color_underline">下划线颜色</string>
+    <string name="toolbar_color_strikethrough">删除线颜色</string>
+    <string name="toolbar_color_drawing">绘制颜色</string>
+    <string name="toolbar_color_text">文本颜色</string>
+    <string name="toolbar_color_comment">注释颜色</string>
+    <string name="toolbar_opacity">不透明度</string>
+    <!-- Note: spoken for the opacity slider; %1$d is a percentage from 25 to 100 -->
+    <string name="toolbar_opacity_percent">不透明度 %1$d%%</string>
+
+    <!-- Colour names, spoken for the colour swatches -->
+    <string name="prefs_color_blue">蓝色</string>
+    <string name="prefs_color_green">绿色</string>
+    <string name="prefs_color_yellow">黄色</string>
+    <string name="prefs_color_orange">橙色</string>
+    <string name="prefs_color_red">红色</string>
+    <string name="prefs_color_purple">紫色</string>
+    <string name="prefs_color_light_blue">浅蓝色</string>
+    <string name="prefs_color_light_green">浅绿色</string>
+    <string name="prefs_color_light_yellow">浅黄色</string>
+    <string name="prefs_color_light_orange">浅橙色</string>
+    <string name="prefs_color_pink">粉色</string>
+    <string name="prefs_color_light_purple">浅紫色</string>
+    <string name="prefs_color_white">白色</string>
+    <string name="prefs_color_pale_grey">淡灰色</string>
+    <string name="prefs_color_light_grey">浅灰色</string>
+    <string name="prefs_color_medium_grey">中灰色</string>
+    <string name="prefs_color_dark_grey">深灰色</string>
+    <string name="prefs_color_black">黑色</string>
+    <string name="prefs_color_cyan">青色</string>
+
+    <!-- Edit PDF: the bottom bar with nothing selected -->
+    <string name="edit_add_text">添加文本</string>
+    <string name="edit_add_image">添加图像</string>
+    <string name="edit_tap_for_text">点按页面上要放置文本的位置</string>
+    <string name="edit_tap_for_image">点按页面上要放置图片的位置</string>
+
+    <!-- Edit PDF: formatting a paragraph -->
+    <string name="edit_bold">粗体</string>
+    <string name="edit_italic">斜体</string>
+    <!-- Note: the underline text style, not the Underline comment tool -->
+    <string name="edit_underline">下划线</string>
+    <string name="edit_text_size">文本大小</string>
+    <!-- Note: %1$d is a text size in points -->
+    <string name="edit_text_size_pt">文本大小：%1$d pt</string>
+    <string name="edit_font">字体</string>
+    <string name="edit_colour">颜色</string>
+    <string name="edit_align_text">对齐文本</string>
+    <!-- Note: bulleted and numbered lists -->
+    <string name="edit_list">列表</string>
+
+    <!-- Edit PDF: fonts (generic kinds of typeface, not font names) -->
+    <!-- Note: the paragraph's own font, as it was in the PDF -->
+    <string name="edit_font_original">原始字体</string>
+    <string name="edit_font_sans">无衬线字体</string>
+    <string name="edit_font_serif">衬线字体</string>
+    <string name="edit_font_mono">等宽字体</string>
+
+    <!-- Edit PDF: list styles -->
+    <!-- Note: spoken for the list style buttons; "None" is no list (plain paragraphs) -->
+    <string name="edit_list_desc_none">列表：无</string>
+    <string name="edit_list_desc_bullet">列表：项目符号</string>
+    <string name="edit_list_desc_dash">列表：短横线</string>
+    <string name="edit_list_desc_number">列表：数字</string>
+    <!-- Note: a list numbered a., b., c. -->
+    <string name="edit_list_desc_lower">列表：小写字母</string>
+    <!-- Note: a list numbered A., B., C. -->
+    <string name="edit_list_desc_upper">列表：大写字母</string>
+    <!-- Note: a list numbered i., ii., iii. -->
+    <string name="edit_list_desc_roman">列表：罗马数字</string>
+
+    <!-- Edit PDF: text alignment -->
+    <string name="edit_align_left">左对齐</string>
+    <string name="edit_align_right">右对齐</string>
+    <string name="edit_align_center">居中对齐</string>
+    <string name="edit_align_justify">两端对齐</string>
+
+    <!-- Edit PDF: the menu over a selected paragraph or picture -->
+    <string name="edit_edit_text">编辑文本</string>
+    <string name="edit_select_all">全选</string>
+    <!-- Note: spoken for the box where a paragraph's text is typed -->
+    <string name="edit_paragraph_text">段落文本</string>
+    <!-- Note: rotate the picture a quarter turn -->
+    <string name="edit_turn_left">向左旋转</string>
+    <string name="edit_turn_right">向右旋转</string>
+
+    <!-- Fill & Sign: what a tap places -->
+    <string name="fill_element_text">文本</string>
+    <!-- Note: an X mark -->
+    <string name="fill_element_cross">叉号</string>
+    <string name="fill_element_check">对勾</string>
+    <string name="fill_element_dot">圆点</string>
+    <string name="fill_element_box">圆角框</string>
+    <!-- Note: a straight line (a shape), as on a form to strike something out -->
+    <string name="fill_element_line">线条</string>
+    <string name="fill_element_signature">签名</string>
+    <string name="fill_element_initials">姓名首字母</string>
+
+    <!-- Fill & Sign: the toolbar -->
+    <string name="fill_add_text">添加文本</string>
+    <string name="fill_add_cross">添加叉号</string>
+    <string name="fill_add_check">添加对勾</string>
+    <string name="fill_add_dot">添加圆点</string>
+    <string name="fill_add_box">添加圆角框</string>
+    <!-- Note: a straight line (a shape) -->
+    <string name="fill_add_line">添加线条</string>
+    <string name="fill_sign_or_initials">签名或添加姓名首字母</string>
+
+    <!-- Fill & Sign: the Sign panel -->
+    <string name="fill_add_signature">添加签名</string>
+    <string name="fill_add_initials">添加姓名首字母</string>
+    <string name="fill_your_signature">您的签名</string>
+    <string name="fill_your_initials">您的姓名首字母</string>
+    <string name="fill_clear_signature">清除已保存的签名</string>
+    <string name="fill_clear_initials">清除已保存的姓名首字母</string>
+    <string name="fill_tap_place_signature">点按要放置签名的位置</string>
+    <string name="fill_tap_place_initials">点按要放置姓名首字母的位置</string>
+
+    <!-- Fill & Sign: making a signature or initials -->
+    <string name="fill_create_signature">创建签名</string>
+    <string name="fill_create_initials">创建姓名首字母</string>
+    <string name="fill_draw_signature_first">请先绘制您的签名</string>
+    <string name="fill_draw_initials_first">请先绘制您的姓名首字母</string>
+    <!-- Note: tab: draw the signature with a finger -->
+    <string name="fill_tab_draw">绘制</string>
+    <!-- Note: tab: take the signature from a picture -->
+    <string name="fill_tab_image">图像</string>
+    <string name="fill_draw_signature_here">在此处绘制您的签名</string>
+    <string name="fill_draw_initials_here">在此处绘制您的姓名首字母</string>
+    <string name="fill_save_to_device">保存到设备</string>
+
+    <!-- Fill & Sign: the menu over a placed element -->
+    <string name="fill_smaller">缩小</string>
+    <string name="fill_bigger">放大</string>
+    <string name="fill_colour">颜色</string>
+
+    <!-- Form fields: the top bar while a field is filled in -->
+    <!-- Note: empties the field being filled in -->
+    <string name="forms_reset">重置</string>
+    <string name="forms_previous_field">上一个字段</string>
+    <string name="forms_next_field">下一个字段</string>
+
+    <!-- ================================================================== -->
+    <!-- Messages: notices at the bottom of the screen, progress, errors -->
+    <!-- ================================================================== -->
+    <!-- Messages: opening documents -->
+    <string name="msg_engine_not_started">PdfCraft 无法启动。</string>
+    <string name="msg_file_moved">此文件已被移动或删除。</string>
+    <string name="msg_opened_own_copy">已打开 PdfCraft 的副本。要更改原文件，请从它所在的应用中再次打开。</string>
+    <!-- "Open file" is the name of the button on Home that picks a file. -->
+    <string name="msg_file_access_lost">PdfCraft 无法再打开此文件。请从它所在的应用中再次打开，或使用“打开文件”。</string>
+
+    <!-- Messages: undo and redo. %1$s is the name of the edit, as the engine gives it (for example "Add comment"). -->
+    <string name="msg_undone">已撤销%1$s</string>
+    <string name="msg_redone">已重做%1$s</string>
+
+    <!-- Messages: viewer tools -->
+    <string name="msg_tool_blocked_security">由于文档的安全设置，此工具不可用。</string>
+    <!-- Draw tool: lines drawn are turned into neat shapes. -->
+    <string name="msg_snap_to_shape_on">已开启吸附到形状</string>
+
+    <!-- Messages: Find. %1$s is the text that was searched for. -->
+    <string name="msg_search_image_only">此文件的文字是图片，因此暂时无法搜索。</string>
+    <string name="msg_search_no_matches">未找到“%1$s”的匹配项</string>
+
+    <!-- Messages: share and print -->
+    <!-- Subject of the email when a document is shared. %1$s is the document's title. -->
+    <string name="msg_share_subject">通过电子邮件发送 %1$s</string>
+    <string name="msg_print_disabled">无法打印：作者已禁用此文档的打印功能。</string>
+
+    <!-- Messages: saving. %1$s is a file name; %2$s is its size (for example "1.2 MB"). -->
+    <string name="msg_saved_copy">已保存副本</string>
+    <string name="msg_saved_downloads">已保存到“下载”：%1$s</string>
+    <string name="msg_saved_downloads_size">已保存到“下载”：%1$s（%2$s）</string>
+
+    <!-- Messages: Read aloud -->
+    <string name="msg_read_aloud_encrypted">朗读功能不适用于受密码保护的文档。</string>
+    <string name="msg_read_aloud_resumed">从上次停止的位置继续朗读</string>
+    <!-- Button: read the document from the beginning again. -->
+    <string name="msg_read_aloud_start_over">从头开始</string>
+
+    <!-- Messages: bookmarks. %1$s is the bookmark's name (for example "Page 3"). -->
+    <string name="msg_bookmark_added">已添加书签“%1$s”</string>
+    <string name="msg_bookmark_removed">已移除书签“%1$s”</string>
+    <string name="msg_bookmarks_cleared">书签已清除</string>
+
+    <!-- Messages: voice comments -->
+    <string name="msg_voice_no_storage">可用存储空间不足，无法录制。请释放一些空间后重试。</string>
+    <string name="msg_voice_no_mic">录制语音注释需要麦克风权限。</string>
+
+    <!-- Messages: copying text -->
+    <!-- Label of a comment's text put on the clipboard (a noun). -->
+    <string name="msg_clip_comment">注释</string>
+    <!-- Label of text selected in a PDF and put on the clipboard. -->
+    <string name="msg_clip_pdf_text">PDF 文本</string>
+    <string name="msg_copied">已复制</string>
+    <string name="msg_copy_not_allowed">此文档不允许复制其文本。</string>
+
+    <!-- Messages: Recognize text (OCR) -->
+    <string name="msg_busy_preparing_ocr">正在准备文本识别…</string>
+    <string name="msg_ocr_not_installed">此版本未安装文本识别功能。</string>
+    <string name="msg_busy_recognizing">正在识别文本…</string>
+    <string name="msg_ocr_done">文本已识别（英语）。现在可以选择、复制、搜索和高亮。</string>
+    <string name="msg_ocr_nothing">没有需要识别的页面</string>
+
+    <!-- Messages: Fill & Sign -->
+    <string name="msg_place_signature">点按要放置签名的位置</string>
+    <string name="msg_place_initials">点按要放置姓名首字母的位置</string>
+    <string name="msg_image_unreadable">无法读取该图像。</string>
+
+    <!-- Messages: digital IDs and signing -->
+    <string name="msg_sign_read_only">此文档无法更改，因此无法签名。</string>
+    <!-- %1$s is the reason, a sentence. -->
+    <string name="msg_id_cannot_sign">此数字 ID 无法签署文档。%1$s</string>
+    <!-- %1$s is the name of the person the digital ID belongs to. -->
+    <string name="msg_id_added">已添加 %1$s 的数字 ID</string>
+    <!-- %1$s is the reason the file was refused. -->
+    <string name="msg_id_unusable">PdfCraft 无法将此文件用作数字 ID：%1$s</string>
+    <string name="msg_busy_creating_id">正在创建您的数字 ID…</string>
+    <string name="msg_id_created">数字 ID 已创建</string>
+    <string name="msg_busy_signing">正在签名…</string>
+    <string name="msg_signed_saved">已签名并保存</string>
+    <!-- %1$s is the file name. "Save a copy" is the name of the button shown with this message. -->
+    <string name="msg_signed_not_saved">已签名，但无法在原位置更改 %1$s。请保存副本以保留已签名的文件。</string>
+
+    <!-- Messages: a document's signatures, on opening it. %1$s is the signer's name. -->
+    <string name="msg_sig_invalid">此文档的签名无效。</string>
+    <string name="msg_sig_some_invalid">此文档中至少有一个签名无效。</string>
+    <string name="msg_sig_valid">已由 %1$s 签名。签名有效。</string>
+    <string name="msg_sig_valid_unknown">已由未知签名者签名。签名有效。</string>
+    <!-- Shown only when the document has two or more signatures. -->
+    <plurals name="msg_sig_all_valid">
+        <item quantity="one">%1$d 个签名有效。</item>
+        <item quantity="other">全部 %1$d 个签名均有效。</item>
+    </plurals>
+    <string name="msg_sig_unverified">已由 %1$s 签名。此后文档未发生变化，但签名者未经验证。</string>
+    <string name="msg_sig_unverified_unknown">已由未知签名者签名。此后文档未发生变化，但签名者未经验证。</string>
+    <string name="msg_sig_some_unverified">已签名。部分签名者未经验证。</string>
+    <!-- Button that opens the signatures' details (a noun). -->
+    <string name="msg_sig_details">详细信息</string>
+    <string name="msg_signer_trusted">%1$s 在此设备上受信任</string>
+    <string name="msg_signer_trusted_unknown">此签名者在此设备上受信任</string>
+
+    <!-- Messages: Edit PDF, adding a picture -->
+    <string name="msg_picture_unreadable">无法读取图片。</string>
+    <string name="msg_gif_not_supported">无法添加 GIF 图像。</string>
+
+    <!-- Messages: forms -->
+    <string name="msg_form_cleared">表单已清除</string>
+    <string name="msg_button_submit">此按钮会将表单在线提交，PdfCraft 不会这样做。</string>
+    <!-- Words remembered from form fields, offered while typing. -->
+    <string name="msg_suggestions_cleared">建议已清除</string>
+
+    <!-- Messages: picked files. %1$s is a file name. -->
+    <string name="msg_that_file_unreadable">无法读取该文件。</string>
+    <string name="msg_named_file_unreadable">无法读取 %1$s。</string>
+    <string name="msg_files_unreadable">无法读取这些文件。</string>
+
+    <!-- Messages: tool jobs (progress texts and results) -->
+    <string name="msg_busy_compressing">正在压缩…</string>
+    <string name="msg_compress_no_gain">此文件已经尽可能小了。</string>
+    <string name="msg_busy_combining">正在合并…</string>
+    <string name="msg_busy_setting_password">正在设置密码…</string>
+    <string name="msg_crop_all">所有页面均已裁剪。</string>
+    <string name="msg_crop_page">页面已裁剪。</string>
+    <!-- %1$s is a file format, for example DOCX. -->
+    <string name="msg_busy_exporting_to">正在导出为 %1$s…</string>
+    <string name="msg_busy_exporting_images">正在导出图像…</string>
+    <!-- %1$d is the page being exported, %2$d how many pages there are. -->
+    <string name="msg_busy_exporting_page">正在导出第 %1$d 页，共 %2$d 页…</string>
+    <!-- Pictures/PdfCraft is a folder on the phone: keep it as it is. -->
+    <plurals name="msg_images_saved">
+        <item quantity="one">%1$d 张图像已保存到 Pictures/PdfCraft</item>
+        <item quantity="other">%1$d 张图像已保存到 Pictures/PdfCraft</item>
+    </plurals>
+    <string name="msg_busy_creating_pdf">正在创建 PDF…</string>
+    <!-- Create PDF takes at most this many files at once. -->
+    <plurals name="msg_create_first_files">
+        <item quantity="one">仅使用了前 %1$d 个文件。</item>
+        <item quantity="other">仅使用了前 %1$d 个文件。</item>
+    </plurals>
+    <string name="msg_busy_extracting">正在提取…</string>
+
+    <!-- Messages: Scan. %1$d is the page being cleaned up, %2$d how many pages there are. -->
+    <string name="msg_busy_saving_scan">正在保存扫描件…</string>
+    <string name="msg_busy_cleaning_page">正在清理第 %1$d 页，共 %2$d 页…</string>
+
+    <!-- Messages: Home and files. %1$s is a file name. -->
+    <string name="msg_rename_exists">已存在名为 %1$s 的文件。</string>
+    <string name="msg_rename_failed">无法重命名该文件。</string>
+    <string name="msg_rename_not_here">无法在此处重命名此文件。</string>
+    <string name="msg_duplicated">已在“下载”中复制为 %1$s</string>
+    <string name="msg_delete_failed">无法删除该文件。</string>
+    <string name="msg_file_deleted">%1$s 已删除</string>
+
+    <!-- ================================================================== -->
+    <!-- Files, notifications and errors from the system -->
+    <!-- ================================================================== -->
+    <!-- Files: engine and file failures shown to the reader -->
+    <string name="files_error_needs_password">此文档受密码保护。</string>
+    <string name="files_error_generic">出错了。</string>
+    <!-- Translator note: a file handed to the app has no location on the phone -->
+    <string name="files_error_no_path">该文件没有路径。</string>
+    <string name="files_error_write">无法写入该文件。</string>
+    <string name="files_error_share">无法共享该文件。</string>
+    <string name="files_error_share_no_space">存储空间不足，无法共享。请释放一些空间后重试。</string>
+    <!-- Translator note: Downloads is the phone's Downloads folder -->
+    <string name="files_error_save_downloads">无法将该文件保存到“下载”。</string>
+    <string name="files_error_save_image">无法保存图像。</string>
+
+    <!-- Files: where a document is, as the file details show it -->
+    <!-- Translator note: the phone's own storage; a folder path may follow it, as in "Internal storage/Documents" -->
+    <string name="files_location_internal_storage">内部存储</string>
+    <!-- Translator note: shown when the folder of a file on the phone isn't known -->
+    <string name="files_location_this_device">此设备</string>
+    <!-- Translator note: the phone's Downloads folder -->
+    <string name="files_location_downloads">下载</string>
+    <!-- Translator note: Android's photos, videos and audio collection, which provided the file -->
+    <string name="files_location_media">媒体</string>
+    <!-- Translator note: the file came from another app that didn't give its name -->
+    <string name="files_location_another_app">其他应用</string>
+
+    <!-- Files: names the app gives -->
+    <!-- Translator note: a chosen folder's name when its storage provider gives none -->
+    <string name="files_folder_unnamed">文件夹</string>
+    <!-- Translator note: the name of a bookmark the reader adds to a page. %1$d is the page number -->
+    <string name="files_bookmark_page">第 %1$d 页</string>
+
+    <!-- Main: messages when Android can't do what was asked -->
+    <string name="main_error_no_app">此手机上没有可执行该操作的应用。</string>
+    <string name="main_error_not_allowed">Android 不允许该操作。</string>
+    <string name="main_error_print_not_allowed">不允许打印此文档。</string>
+
+    <!-- Service: the Read aloud notification -->
+    <!-- Translator note: the notification's text while the document is being read out -->
+    <string name="service_notification_reading">正在朗读</string>
+    <!-- Translator note: the notification's text while reading is paused -->
+    <string name="service_notification_paused">已暂停</string>
+    <!-- Translator note: notification button that jumps back 15 seconds in the reading -->
+    <string name="service_action_back">快退 15 秒</string>
+    <!-- Translator note: notification button that jumps forward 15 seconds in the reading -->
+    <string name="service_action_forward">快进 15 秒</string>
+    <!-- Translator note: notification button that stops reading aloud -->
+    <string name="service_action_stop">停止</string>
+</resources>
